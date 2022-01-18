@@ -6,6 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
+    "importHelpers": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -22,5 +23,9 @@
   },
   "include": [
     "src"
+  ],
+  "types": [
+    "babylonjs",
+    "babylonjs-loaders"
   ]
 }

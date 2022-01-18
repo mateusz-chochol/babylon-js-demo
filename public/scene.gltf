@@ -1,0 +1,156 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [8.332094192504883, 10.078083992004395, 4.613151550292969],
+      "min": [-4.613151550292969, 0.0739370733499527, -4.6131510734558105],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15276,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [0.9989656805992126, 1.0, 0.9951868653297424],
+      "min": [-0.9986957907676697, -1.0, -0.9951868653297424],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [0.9938886165618896, 1.0, 0.9999999403953552, 1.0],
+      "min": [-0.9927076101303101, -1.0, -1.0, 1.0],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [0.9975269436836243, 0.9376343488693237],
+      "min": [0.002473049331456423, 0.002473049331456423],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6072,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Dmitriy Nikonov (https://sketchfab.com/dimanikonov)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cup-7d450bb714034fceaa7b59a0e564f46b",
+      "title": "Cup"
+    },
+    "generator": "Sketchfab-12.29.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24288,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10184,
+      "byteOffset": 24288,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30552,
+      "byteOffset": 34472,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20368,
+      "byteOffset": 65024,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 85392,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": ["KHR_materials_pbrSpecularGlossiness"],
+  "extensionsUsed": ["KHR_materials_pbrSpecularGlossiness"],
+  "meshes": [
+    {
+      "name": "cup_lp_cup_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "matrix": [
+        1.622309923171997, 0.0, 0.0, 0.0, 0.0, 3.60225165956684e-16,
+        -1.622309923171997, 0.0, 0.0, 1.622309923171997, 3.60225165956684e-16,
+        0.0, 0.0, 0.0, 0.0, 1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [2],
+      "matrix": [
+        0.009999999776482582, 0.0, 0.0, 0.0, 0.0, 0.0, 0.009999999776482582,
+        0.0, 0.0, -0.009999999776482582, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0
+      ],
+      "name": "cup_lp.fbx"
+    },
+    {
+      "children": [3],
+      "name": "RootNode"
+    },
+    {
+      "children": [4],
+      "name": "cup_lp"
+    },
+    {
+      "mesh": 0,
+      "name": "cup_lp_cup_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [0]
+    }
+  ]
+}
